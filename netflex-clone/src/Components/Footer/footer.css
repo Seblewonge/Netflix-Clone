@@ -46,3 +46,84 @@ cursor: pointer;
 font-size: 22%;
 margin-bottom: 10px;
 }
+/* ✅ Your existing footer styles above */
+
+/* --- MEDIA QUERIES --- */
+
+/* Tablet screens (<= 1024px) */
+@media (max-width: 1024px) {
+  .footer_inner_container {
+    width: 80%;
+  }
+
+  .footer_icon {
+    width: 20%;
+  }
+
+  .footer_data {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .service_code {
+    width: 20%;
+  }
+}
+
+/* Mobile screens (<= 768px) */
+@media (max-width: 768px) {
+  .footer_inner_container {
+    width: 90%;
+  }
+
+  .footer_data {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .footer_icon {
+    width: 40%;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .service_code {
+    width: 40%;
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+
+  .copy-write {
+    font-size: 70%;
+    text-align: center;
+  }
+}
+
+/* Small mobile (<= 480px) */
+@media (max-width: 480px) {
+  .footer_inner_container {
+    width: 95%;
+  }
+
+  .footer_icon {
+    width: 60%;
+    font-size: 0.9rem;
+  }
+
+  .footer_data ul {
+    height: auto;
+    font-size: 0.85rem;
+  }
+
+  .service_code {
+    width: 60%;
+    font-size: 0.8rem;
+    padding: 4px;
+  }
+
+  .copy-write {
+    font-size: 60%;
+    text-align: center;
+  }
+}
