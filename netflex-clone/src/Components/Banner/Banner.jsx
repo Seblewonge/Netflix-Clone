@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import "./Banner.css";
 import axios from '../../utils/axios'
 import requests from "../../utils/requests";
