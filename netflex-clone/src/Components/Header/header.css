@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .header_outer-container{
 position: sticky;
  top: 0; 
@@ -28,6 +29,7 @@ display: flex;
 }
 .header_left ul {
 width: 140%;
+ font-family: "Times New Roman", Times, serif;
 display:flex;
 justify-content: space-between;
 align-items: center;
@@ -54,6 +56,7 @@ cursor: pointer;
 
   .header_left ul,
   .header-right ul {
+  font-family: "Times New Roman", Times, serif;
     width: 100%;
     font-size: 0.9rem;
   }
