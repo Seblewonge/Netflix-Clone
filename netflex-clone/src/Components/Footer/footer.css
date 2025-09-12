@@ -38,7 +38,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 border: #fff 1px solid;
-width: 10%;
+width: 20%;
 margin: 10px 0;
 cursor: pointer;
 }
@@ -89,7 +89,7 @@ margin-bottom: 10px;
   }
 
   .service_code {
-    width: 40%;
+    width: 20%;
     font-size: 0.9rem;
     padding: 5px;
   }
@@ -117,7 +117,7 @@ margin-bottom: 10px;
   }
 
   .service_code {
-    width: 60%;
+    width: 20%;
     font-size: 0.8rem;
     padding: 4px;
   }
