@@ -45,9 +45,7 @@ const Footer = () => {
         <div className="service_code">
           <p>Service Code</p>
         </div>
-        <div className="copy-write">
-    &copy; 1997-2025, Inc.
-</div>
+        <div className="copy-write">&copy; 1997-2025, Inc.</div>
       </div>
     </div>
   );
